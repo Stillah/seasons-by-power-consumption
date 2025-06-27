@@ -52,7 +52,7 @@ We have chosen Denmark for testing the models. The results on a random launch ar
 * 1D CNN accuracy: 0.8540
 * 2D CNN accuracy: 0.8540
 
-The accuracy is quite high for all methods with 1D and 2D CNN being the best. Furthermore, it can be improved to 0.9+ if StandardScaler is used instead of MinMaxScaler. We used MinMaxScaler because it leads to significantly better results for 2D CNN with GAF transformation. 1D CNN being the best (with StandardScaler) is expected since it's specifically designed to work with time-series. MLP is slightly worse than the other 2 models because it doesn't capture more distant patterns.
+The accuracy is quite high for all methods with 1D and 2D CNN being the best. Furthermore, accuracy for 1D CNN can be improved to 0.9+ if StandardScaler is used instead of MinMaxScaler. We used MinMaxScaler because it leads to significantly better results for 2D CNN with GAF transformation. 1D CNN being the best (with StandardScaler) is expected since it's specifically designed to work with time-series. MLP is slightly worse than the other 2 models because it doesn't capture more distant patterns.
 
 Below confusion matrices and training graphs are presented.
 ### MLP
@@ -69,6 +69,9 @@ Below confusion matrices and training graphs are presented.
 
 
 ## How to use
-First clone the repository.
+First clone the repository and install requirements.txt.
 
 Then enter desired values for n number of days to input.csv and launch predict.py. Values should correspond to Denmark as it was used for training, for other countries training dataset needs to be changed in main.ipynb.
+
+## Reflection
+During this project we have recieved hands on experience in machine learning. A lot (90%) of the expertise needed to implement this project wasn't covered in the course, so we had to put significant effort into understanding new material ourselves. Luckily, it was fun and engaging. As a result, we have learned in-depth how MLPs & CNNs work in theory and how to implement them in practice using pytorch. Besides that we have learned a lot of smaller ML aspects, e.g. how to perform exploratory data analysis (EDA) and ensure no data leakage.
