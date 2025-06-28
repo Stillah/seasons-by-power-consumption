@@ -1,4 +1,7 @@
-![image](https://github.com/user-attachments/assets/fb44dd21-b7cc-4d99-a1cf-edcd325cac95)# Project for Machine Learning course
+# Project for Machine Learning course
+
+## Team
+Gatiatullin Ruslan ES05334 (the only team member).
 
 ## Introduction
 In a world increasingly driven by data, the patterns of energy consumption and production provide a hidden insight into the rhythms of nature and human behavior. By examining hourly power production and consumption we can detect subtle patterns that reveal the time of year, effectively predicting the current season. This ability is based on the cyclical relationship between energy systems and seasonal changes: during winter, the early sunsets increase the demand for evening lighting, while during summer, the long daylight hours boost solar production. The transitional seasons, such as spring and autumn, exhibit unique load profiles as heating and cooling needs fluctuate.
