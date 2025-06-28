@@ -1,4 +1,4 @@
-# Project for Machine Learning course
+![image](https://github.com/user-attachments/assets/fb44dd21-b7cc-4d99-a1cf-edcd325cac95)# Project for Machine Learning course
 
 ## Introduction
 In a world increasingly driven by data, the patterns of energy consumption and production provide a hidden insight into the rhythms of nature and human behavior. By examining hourly power production and consumption we can detect subtle patterns that reveal the time of year, effectively predicting the current season. This ability is based on the cyclical relationship between energy systems and seasonal changes: during winter, the early sunsets increase the demand for evening lighting, while during summer, the long daylight hours boost solar production. The transitional seasons, such as spring and autumn, exhibit unique load profiles as heating and cooling needs fluctuate.
@@ -26,7 +26,7 @@ These 3 columns were chosen because they are the most descriptive of the season.
 
 Observations:
 1. Wind generation is almost constant throughout 1 season
-2. Wind generation differes significantly from season to season
+2. Wind generation differs significantly from season to season
 3. Solar electricity is generated between 4 am and 6 pm and is very different for each season
 
 ## Potential solutions
