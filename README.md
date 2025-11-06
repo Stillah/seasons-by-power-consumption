@@ -57,6 +57,3 @@ Below confusion matrices and training graphs are presented.
 First clone the repository and install requirements.txt.
 
 Then enter desired values for n number of days to input.csv and launch predict.py. Values should correspond to Denmark as it was used for training, for other countries training dataset needs to be changed in main.ipynb.
-
-## Reflection
-During this project we have recieved hands on experience in machine learning. A lot (90%) of the expertise needed to implement this project wasn't covered in the course, so we had to put significant effort into understanding new material ourselves. Luckily, it was fun and engaging. As a result, we have learned in-depth how MLPs & CNNs work in theory and how to implement them in practice using pytorch. Besides that we have learned a lot of smaller ML aspects, e.g. how to perform exploratory data analysis (EDA) and ensure no data leakage.
